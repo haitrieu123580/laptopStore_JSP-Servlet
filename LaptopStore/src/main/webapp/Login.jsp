@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Login</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <style>
 body {
 	width: 400px;
@@ -25,7 +26,7 @@ td {
 	<form action="CheckLoginController" method="POST">
 		<table>
 			<tr>
-				<caption>Dang nhap</caption>
+				<center>Dang nhap</center>
 			</tr>
 			<tr>
 				<td><label for="username">Username</label></td>
@@ -38,10 +39,10 @@ td {
 					id="password"></td>
 			</tr>
 			<tr>
-				<td><input type="submit" name="btn-login" value="login">
+				<td><input type="submit" name="btn-login" value="login" class="btn btn-primary">
 
 				</td>
-				<td><input type="reset" name="btn-reset" value="Reset">
+				<td><input type="reset" name="btn-reset" value="Reset" class="btn btn-danger">
 				</td>
 				<td></td>
 			</tr>

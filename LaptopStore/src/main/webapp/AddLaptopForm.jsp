@@ -114,6 +114,7 @@ div.content {
 				new Laptop</a> <a href="ViewController?modViewLaptop=1">Show all
 				Laptops</a> <a href="UpdateController?modUpdateLaptop=1">Update</a> <a
 				href="DeleteController?modDeleteLaptop=1">Delete</a> <a href="#">Search</a>
+				<a href="Login.jsp">Logout</a>
 
 		</div>
 		<div class="content">

@@ -1,5 +1,9 @@
 package Model.BO;
 
-public class AdminBO {
+import Model.DAO.AdminDAO;
 
+public class AdminBO {
+	public static boolean isExistAccount(String username, String password) {
+		return AdminDAO.isExistAccount(username, password);
+	}
 }

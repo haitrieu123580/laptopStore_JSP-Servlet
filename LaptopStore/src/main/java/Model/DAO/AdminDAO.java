@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 
 public class AdminDAO {
-	public boolean isExistAccount(String user_input, String pass_input) {
+	public static boolean isExistAccount(String user_input, String pass_input) {
 		boolean existAccount = false;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
@@ -16,7 +16,7 @@ public class AdminDAO {
 			Statement stmt = con.createStatement();
 
 			String sql = "Select * from admin";
-			ResultSet rs =stmt.executeQuery(sql);
+			ResultSet rs = stmt.executeQuery(sql);
 
 			while (rs.next()) {
 

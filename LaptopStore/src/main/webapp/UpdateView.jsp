@@ -92,6 +92,7 @@
           <a href="UpdateController?modUpdateLaptop=1">Update</a>
           <a href="DeleteController?modDeleteLaptop=1">Delete</a>
           <a href="SearchController?modSearchLaptop=1">Search</a>
+          <a href="Login.jsp">Logout</a>
 
         </div>
         <div class="content">
